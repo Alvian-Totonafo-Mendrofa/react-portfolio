@@ -24,7 +24,7 @@ const App = () => {
       title: "Single Page Portfolio",
       description: "Responsive Single Page Portfolio using React+TailwindCSS",
       image: "/assets/project/Single-Page-Portfolio.png",
-      repo: "https://github.com/proyek1",
+      repo: "https://github.com/Alvian-Totonafo-Mendrofa/react-portfolio",
     },
     // {
     //   id: 2,
