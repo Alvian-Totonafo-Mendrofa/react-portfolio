@@ -109,7 +109,7 @@ const App = () => {
       {/* Navbar */}
       <nav className="p-4 bg-[#98A8F8] sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FAF7F0] via-[#CDFCF6] to-[#98A8F8] animate-glowing">
+          <h1 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FAF7F0] via-[#CDFCF6] to-[#98A8F8] animate-glowing">
             Alvian Totonafo Mendrofa
           </h1>
           <button
@@ -225,6 +225,7 @@ const App = () => {
                 to="about"
                 smooth={true}
                 duration={500}
+                offset={-39}
                 onClick={closeMenu}
                 className="block text-[#FAF7F0] hover:text-[#CDFCF6] py-2 cursor-pointer"
               >
@@ -283,7 +284,7 @@ const App = () => {
         <div className="absolute w-full h-32 bg-[#FAF7F0] opacity-20 top-0 right-0 transform -rotate-12 z-0"></div>
         <div className="container mx-auto p-4 flex flex-col md:flex-row items-center justify-center z-10">
           <div className="w-full md:w-1/2 flex justify-center md:justify-end p-4">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#FAF7F0]">
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#FAF7F0]">
               <img
                 src="/assets/profile/pas-foto.png"
                 alt="Foto Saya"
@@ -292,11 +293,11 @@ const App = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 p-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FAF7F0] via-[#CDFCF6] to-[#98A8F8] animate-glowing">
+            <h2 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FAF7F0] via-[#CDFCF6] to-[#98A8F8] animate-glowing">
               Tentang Saya
             </h2>
             <p className="mt-4 text-[#FAF7F0] max-w-2xl drop-shadow-lg">
-              Saya adalah seorang mahasiswa teknik informatika yang bersemangat dalam menciptakan solusi digital yang kreatif dan fungsional. Saat ini saya sedang menempuh jenjang pendidikan di Universitas Esa Unggul. Saya memiliki pengalaman dalam berbagai teknologi seperti Mengelola berbagai web development framework seperti Laravel, React dan Cross-Platform seperti Flutter, manajemen Basis Data dan disertai kemampuan SQL, serta menganalisis data baik dengan Python atau R.
+              Saya, Alvian Totonafo Mendrofa, adalah mahasiswa semester enam Program Studi Teknik Informatika yang antusias dalam pengembangan web. Dengan pemahaman yang kuat tentang teknologi web, saya memiliki keterampilan dalam frontend dan backend development, termasuk penggunaan framework seperti Laravel dan React. Saya bersemangat untuk terus belajar dan menerapkan teknologi terbaru dalam membangun solusi digital yang inovatif dan fungsional.
             </p>
           </div>
         </div>
